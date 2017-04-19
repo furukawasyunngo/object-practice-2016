@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace object_practice_2016
+﻿namespace object_practice_2016
 {
     class CHito : CIkimono
     {
@@ -20,7 +14,8 @@ namespace object_practice_2016
             return count;
         }
 
-        public string action()
+        // override = 上書き 
+        public override string action()
         {
             return "テクテク";
         }

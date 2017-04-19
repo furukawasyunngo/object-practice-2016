@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace object_practice_2016
+﻿namespace object_practice_2016
 {
-    class CIkimono
+    abstract class CIkimono
     {
         private static int ikimonoCount = 0;
 
@@ -27,5 +21,7 @@ namespace object_practice_2016
         {
             return "私は" + name + "です。";
         }
+        // abstract 抽象
+        public abstract string action();
     }
 }

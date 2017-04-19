@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace object_practice_2016
+﻿namespace object_practice_2016
 {
     class CTori : CIkimono
     {
@@ -22,7 +14,7 @@ namespace object_practice_2016
             return count;
         }
 
-        public string action()
+        public override string action()
         {
             return "パタパタ";
         }
